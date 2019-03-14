@@ -1,4 +1,10 @@
+import redis
+import os
 import telebot
+
+token = os.environ[635333939:AAHPDBHRhzELzbRBsrG6PfeXHUiXGIZm1xc]
+some_api_token = os.environ['SOME_API_TOKEN']
+
 
 bot = telebot.TeleBot("635333939:AAHPDBHRhzELzbRBsrG6PfeXHUiXGIZm1xc")
 
